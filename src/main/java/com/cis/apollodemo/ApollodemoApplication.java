@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApollodemoApplication {
 
-    static {
-        System.setProperty("-Dapp.id","mr");
-
-    }
+//    static {
+//        System.setProperty("-Dapp.id","mr");
+//
+//    }
 
     @Autowired
     private  ApplicationConfigBean applicationConfigBean;
